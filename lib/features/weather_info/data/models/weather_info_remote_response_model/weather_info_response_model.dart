@@ -8,12 +8,12 @@ import 'package:weather_info_flutter/features/weather_info/data/models/weather_i
 import 'package:weather_info_flutter/features/weather_info/data/models/weather_info_remote_response_model/sunset_sunrise_response/sunset_sunrise_response_model.dart';
 import 'package:weather_info_flutter/features/weather_info/data/models/weather_info_remote_response_model/weather_description_response/weather_description_response_model.dart';
 import 'package:weather_info_flutter/features/weather_info/data/models/weather_info_remote_response_model/wind_info_response/wind_info_response_model.dart';
-import 'package:weather_info_flutter/features/weather_info/domain/weather_remote_info_response_entity/clouds_entity.dart';
-import 'package:weather_info_flutter/features/weather_info/domain/weather_remote_info_response_entity/main_weather_info_entity.dart';
-import 'package:weather_info_flutter/features/weather_info/domain/weather_remote_info_response_entity/sunset_sunrise_entity.dart';
-import 'package:weather_info_flutter/features/weather_info/domain/weather_remote_info_response_entity/weather_description_entity.dart';
-import 'package:weather_info_flutter/features/weather_info/domain/weather_remote_info_response_entity/weather_info_entity.dart';
-import 'package:weather_info_flutter/features/weather_info/domain/weather_remote_info_response_entity/wind_info_entity.dart';
+import 'package:weather_info_flutter/features/weather_info/domain/entities/weather_remote_info_response_entity/clouds_entity.dart';
+import 'package:weather_info_flutter/features/weather_info/domain/entities/weather_remote_info_response_entity/main_weather_info_entity.dart';
+import 'package:weather_info_flutter/features/weather_info/domain/entities/weather_remote_info_response_entity/sunset_sunrise_entity.dart';
+import 'package:weather_info_flutter/features/weather_info/domain/entities/weather_remote_info_response_entity/weather_description_entity.dart';
+import 'package:weather_info_flutter/features/weather_info/domain/entities/weather_remote_info_response_entity/weather_info_entity.dart';
+import 'package:weather_info_flutter/features/weather_info/domain/entities/weather_remote_info_response_entity/wind_info_entity.dart';
 import 'package:weather_info_flutter/features/weather_info/utils/enums/weather_type_enum.dart';
 
 part 'weather_info_response_model.g.dart';

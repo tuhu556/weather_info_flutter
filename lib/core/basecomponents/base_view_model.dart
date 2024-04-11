@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:weather_info_flutter/core/commondomain/entitties/based_api_result/api_result_model.dart';
-import 'package:weather_info_flutter/core/commondomain/entitties/based_api_result/api_result_state.dart';
-import 'package:weather_info_flutter/core/commondomain/entitties/based_api_result/error_result_model.dart';
+import 'package:weather_info_flutter/core/commondomain/entities/based_api_result/api_result_model.dart';
+import 'package:weather_info_flutter/core/commondomain/entities/based_api_result/api_result_state.dart';
+import 'package:weather_info_flutter/core/commondomain/entities/based_api_result/error_result_model.dart';
 import 'package:weather_info_flutter/core/commondomain/usecases/base_params_usecase.dart';
 
 class BaseViewModel extends ChangeNotifier {
@@ -17,8 +17,8 @@ class BaseViewModel extends ChangeNotifier {
       Params? query,
       bool launchLoader = true}) async {
     showLoadingIndicator(launchLoader);
-    final ApiResultModel<Type> _apiResult = await useCase(query);
-    return _apiResult.when(
+    final ApiResultModel<Type> apiResult = await useCase(query);
+    return apiResult.when(
       success: (Type data) {
         showLoadingIndicator(launchLoader);
         return ApiResultState<Type>.data(data: data);

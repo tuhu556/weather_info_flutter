@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:injectable/injectable.dart';
-import 'package:weather_info_flutter/core/commondomain/entitties/based_api_result/api_result_model.dart';
-import 'package:weather_info_flutter/core/commondomain/entitties/based_api_result/error_result_model.dart';
+import 'package:weather_info_flutter/core/commondomain/entities/based_api_result/api_result_model.dart';
+import 'package:weather_info_flutter/core/commondomain/entities/based_api_result/error_result_model.dart';
 import 'package:weather_info_flutter/core/di/app_component/app_component.dart';
 import 'package:weather_info_flutter/core/utils/constans/app_constants.dart';
 import 'package:weather_info_flutter/core/utils/helpers/app_configurations_helper/app_configurations_helper.dart';

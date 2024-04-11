@@ -28,10 +28,10 @@ const String contentMultipartTypeValue = 'multipart/form-data';
 const Duration timeOutDuration = Duration(seconds: 20);
 
 ///The app base Url should be provided in this value
-const String devBaseUrl = 'https://api.openweathermap.org/data/2.5';
-const String prodBaseUrl = 'https://api.openweathermap.org/data/2.5/prod';
-const String qaBaseUrl = 'https://api.openweathermap.org/data/2.5/qa';
-const String uatBaseUrl = 'https://api.openweathermap.org/data/2.5/uat';
+const String devBaseUrl = 'https://api.openweathermap.org/data/3.0';
+const String prodBaseUrl = 'https://api.openweathermap.org/data/3.0/prod';
+const String qaBaseUrl = 'https://api.openweathermap.org/data/3.0/qa';
+const String uatBaseUrl = 'https://api.openweathermap.org/data/3.0/uat';
 
 /// getWeather details uri's and header keys
 const String getWeatherDetails = '/weather';

@@ -1,4 +1,4 @@
-import 'package:weather_info_flutter/core/commondomain/entitties/based_api_result/error_result_model.dart';
+import 'package:weather_info_flutter/core/commondomain/entities/based_api_result/error_result_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'api_result_state.freezed.dart';
 

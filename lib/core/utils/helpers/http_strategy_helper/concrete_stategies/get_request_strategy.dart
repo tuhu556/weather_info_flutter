@@ -1,5 +1,5 @@
 import 'package:http/http.dart' as http;
-import 'package:weather_info_flutter/core/commondomain/entitties/based_api_result/api_result_model.dart';
+import 'package:weather_info_flutter/core/commondomain/entities/based_api_result/api_result_model.dart';
 import 'package:weather_info_flutter/core/utils/constans/app_constants.dart';
 import 'package:weather_info_flutter/core/utils/helpers/extension_functions/extension_function.dart';
 import 'package:weather_info_flutter/core/utils/helpers/extension_functions/http_response_extensions.dart';
